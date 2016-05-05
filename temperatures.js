@@ -14,7 +14,7 @@ function getHighestAndLowest(temperatures) {
 /** DO NOT TOUCH THIS */
 
 function formatMyResult(min, max) {
-    return 'Les températures se situent entre ' + min + '°C et ' + max + '°C';
+    return 'The minimum temperature is ' + min + '°C and the maximum temperature is ' + max + '°C';
 }
 
 var request = require("request");
